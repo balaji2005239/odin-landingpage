@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: #1f2937;
+}
+.title{
+    color: white;
+    font-size: 22px;
+    font-weight: 550;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+p.mainp{
+    color: white;
+    font-size: 18px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+button.start{
+    background: #3882FE;
+    color: white;
+}
+.bhead{
+    font-size: 28px;
+    font-weight: bold;
+}
+.para{
+    background:#E5E7EB;
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: black;
+    font-weight: lighter;
+}
+.author{
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.bg{
+    background: white;
+}
+.modal{
+    background: #3882FE;
+    border-radius: 8px;
+}
+p.mp{
+    color: white;
+}
+h3{
+    color: white;
+}
+button.signup{
+    background: #3882FE;
+    border: 1px solid white;
+    color: white;
+}
+.footer{
+    background: #1f2937;
+}
+.foot{
+    color: white;
+}
+/* SOLUTION */
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 180px;
+    font-weight: 300;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px;
+    gap: 160px;
+}
+.mainh{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+.ubody{
+    text-align: center;
+    padding: 30px 180px;
+}
+.bhead{
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.para{
+    display: flex;
+    text-align: left;
+    padding: 30px 180px;
+    flex-direction: column;
+
+}
+.quote{
+    margin-top: 100px;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.bg{
+    display: flex;
+    padding: 30px 180px;
+}
+.modal{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
